@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Landing</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="header__navbar df">
+        <ul class="header__list df">
+          <li class="header__item"><a href="#" class="header__link">Home</a></li>
+          <li class="header__item"><a href="#" class="header__link">About</a></li>
+          <li class="header__item"><a href="#" class="header__link">Contact</a></li>
+        </ul>
+        <div class="header__logo"><h1>Landing</h1></div>
+        <div class="header__action">
+            <button class="header__buy">Buy Now</button>
+            <button onclick="btn()" class=" header__toggle"><i class="fa-solid fa-bars-staggered"></i></button>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <section class="hero container">
+        <div class="hero__left">
+           <h1 class="hero__title">Introduce Your Product Quickly & Effectively</h1>
+           <p class="hero__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
+             mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+             <div class="hero__action">
+               <button class="hero__action__left">Purchase UI</button>
+               <button class="hero__action__right">Learn More</button>
+             </div>
+        </div>
+        <div class="hero__right">
+           <img src="./img/hero.svg" alt="hero img">
+        </div>
+       </section>
+       <section class="fast container">
+       <div class="fast__cards">
+        <div class="fast__card">
+            <div class="fast__card__left first">
+                <h1 class="fast__card__title">Light, Fast & Powerful</h1>
+                <p class="fast__card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+                <p class="fast__card__desc"> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                <div class="fast__card__info">
+                 <div class="fast__card__info__left">
+                     <img src="./img/icon.svg" alt="">
+                     <h3>Title Goes Here</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                 </div>
+                 <div class="fast__card__info__left">
+                     <img src="./img/icon.svg" alt="">
+                     <h3>Title Goes Here</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                 </div>
+                </div>
+               </div>
+               <div class="fast__card__img first">
+                <img src="./img/undraw_mention_6k5d4.svg" alt="">
+               </div>
+        </div>
+        <div class="fast__card">
+            <div class="fast__card__img">
+                <img src="./img/undraw_happy_news_hxmt2.svg" alt="">
+               </div>
+            <div class="fast__card__left">
+                <h1 class="fast__card__title">Light, Fast & Powerful</h1>
+                <p class="fast__card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+ <p class="fast__card__desc"> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+               </div>
+               
+        </div>
+        <div class="fast__card">
+            <div class="fast__card__img">
+                <img src="./img/undraw_social_influencer_sgsv3.svg" alt="">
+               </div>
+            <div class="fast__card__left">
+                <h1 class="fast__card__title">Light, Fast & Powerful</h1>
+                <p class="fast__card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+ <p class="fast__card__desc"> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+               </div>
+               
+        </div>
+        <div class="fast__card">
+            <div class="fast__card__img">
+                <img src="./img/undraw_mention_6k5d4.svg" alt="">
+               </div>
+            <div class="fast__card__left">
+                <h1 class="fast__card__title">Light, Fast & Powerful</h1>
+                <p class="fast__card__desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+ <p class="fast__card__desc"> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+ <button class="fast__card__btn">
+    Purchase Now
+ </button>
+               </div>
+               
+        </div>
+       </div>
+       </section>
+       <section class="price container">
+       <h1 class="price__title">A Price To Suit Everyone</h1>
+       <p class="price__desc">A Price To Suit Everyone</p>
+       <div class="price__info">
+        <h1 class="price__info__title">$40</h1>
+        <h5 class="price__info__desc">UI Design Kit</h5>
+       </div>
+       <div class="price__action">
+        <h5 class="price__action__title">See, One price. Simple.</h5>
+        <button class="price__action__btn">Purchase Now</button>
+       </div>
+       </section>
+  </main>
+  <footer class="footer container">
+    <ul class="footer__top df">
+    <li class="footer__item">©2023 Yourcompany</li>
+    <li class="footer__item__logo"><h1>Landing</h1></li>
+    <li class="footer__item">
+    <button class="footer__btn">Purchase now</button>
+    </li>
+   </ul>
+   <ul class="footer__bottom df">
+    <li class="footer__bottom__item">
+        <a href="#" class="footer__link">Home</a>
+        <a href="#" class="footer__link">About</a>
+        <a href="#" class="footer__link">Contact</a>
+    </li>
+    <li class="footer__bottom__item">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+    </li>
+   </ul>
+  </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

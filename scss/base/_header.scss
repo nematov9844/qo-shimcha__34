@@ -1,0 +1,78 @@
+.header{
+    &__navbar{
+        position: fixed;
+        position: relative;
+    }
+    &__list{
+        position: absolute;
+        left: -115%;
+        top: -120%;
+        width: 50%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(0px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        transition: all 1s;
+    }
+    &__list.toggle{
+        left: -15%;
+        top: -120%;
+       
+
+    }
+    &__link{
+        font-size: 20px;
+    }
+    &__logo{
+        h1{
+            color: #18255f;
+            text-shadow: 5px 5px 5px #18255f;
+
+        }
+    }
+    &__buy{
+        background-color: #2245E3;
+        padding: 5px 20px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        display: none;
+    }
+    &__link{
+        color: #2245E3;
+    }
+    &__toggle{
+        border: none;
+        background: transparent;
+        color:#18255f ;
+        font-size: 24px;
+    }
+}
+
+@media (min-width:576px) {
+    .header{
+        &__list{
+             position: sticky;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            width: auto;
+            background: none;
+            backdrop-filter: none;
+            height: auto;
+        }
+        &__toggle{
+            display: none;
+        }
+        &__buy{
+            display: block;
+        }
+    }
+    
+}
+
+
