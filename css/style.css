@@ -25,6 +25,23 @@
   gap: 15px;
 }
 
+a {
+  position: relative;
+}
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2a3d8f;
+  transition: all 1s;
+}
+a:hover::after {
+  width: 100%;
+}
+
 .header__navbar {
   position: fixed;
   position: relative;
@@ -52,7 +69,9 @@
 .header__link {
   font-size: 20px;
 }
-.header__logo h1 {
+.header__logo a {
+  font-size: 28px;
+  font-weight: 600;
   color: #18255f;
   text-shadow: 5px 5px 5px #18255f;
 }
@@ -340,7 +359,9 @@
 .footer__item {
   color: #2245E3;
 }
-.footer__item__logo h1 {
+.footer__item__logo a {
+  font-size: 24px;
+  font-weight: 700;
   color: #18255f;
   text-shadow: 5px 5px 5px #18255f;
 }

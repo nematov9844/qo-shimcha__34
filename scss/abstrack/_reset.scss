@@ -26,3 +26,22 @@
     justify-content: space-between;
     gap: 15px;
 }
+
+a{
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #2a3d8f;
+        transition: all 1s;
+    }
+    &:hover{
+        &::after{
+            width: 100%;
+        }
+    }
+}
