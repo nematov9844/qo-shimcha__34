@@ -41,6 +41,10 @@
         border: none;
         border-radius: 4px;
         display: none;
+        &:hover{
+            background-color: #384eaf;
+            box-shadow: 0px 0px 10px 0px #18255f;
+        }
     }
     &__link{
         color: #2245E3;
